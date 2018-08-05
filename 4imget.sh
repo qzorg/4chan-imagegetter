@@ -42,7 +42,7 @@ done
 if [ "$thread" ]
 then
     echo "putting files from $thread into $directory"
-    wget -P $directory -nd -r -l 1 -H -D i.4cdn.org -A png,gif,jpg,jpeg,webm $thread
+    wget -P $directory -nd -r -l 1 -H -D is2.4chan.org -A png,gif,jpg,jpeg,webm $thread
     if [ $keep_thumbs -eq 1 ]
     then
         exit 0
